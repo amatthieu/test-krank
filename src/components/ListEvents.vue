@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="list">
     <date
       v-for="day in getDates"
       :key="day"
@@ -49,6 +49,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.list {
+  display: flex;
+  flex-flow: column;
+}
 </style>
