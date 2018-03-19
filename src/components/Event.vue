@@ -59,16 +59,16 @@ export default {
     'event'
   ],
   computed: {
-    color() {
-      switch(this.event.sport) {
+    color () {
+      switch (this.event.sport) {
         case 'Football':
-        return 'rgb(55, 183, 106)'
+          return 'rgb(55, 183, 106)'
         case 'Running':
-        return 'rgb(102, 102, 102)'
+          return 'rgb(102, 102, 102)'
         case 'Basket':
-        return 'rgb(255, 92, 92)'
+          return 'rgb(255, 92, 92)'
         case 'Tennis':
-        return 'rgb(255, 188, 73)'
+          return 'rgb(255, 188, 73)'
       }
     }
   },
